@@ -40,5 +40,5 @@ Berikut penjelasannya :<br>
 ``` python
 print("Please enter your full name : ")
 ```
-Source code diatas berfungsi untuk mencetak hasil / output berupa **Please enter your full name : ** (Seperti gambar dibawah ini)<br>
+Source code diatas berfungsi untuk mencetak hasil / output berupa **Please enter your full name :** (Seperti gambar dibawah ini)<br>
 ![Output Fungsi Print](pict/output_print.PNG) <br>
