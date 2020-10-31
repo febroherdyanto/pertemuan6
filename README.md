@@ -311,6 +311,7 @@ Kita akan coba lagi untuk *run* file tersebut, maka akan muncul seperti gambar d
 <hr>
 Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
 <br>
+
 ### ============== THANK YOU ============== <br>
 ### FEBRO HERDYANTO / 312010043 / TI.20.B.1 <br>
 ### ===================================== <br>
