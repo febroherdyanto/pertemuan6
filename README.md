@@ -5,6 +5,13 @@ Nama : Febro Herdyanto <br>
 NIM : 312010043<br>
 Kelas : TI.20.B.1<br>
 
+DAFTAR ISI <br>
+| No | Description | Link |
+| ----- | ----- | ---- |
+| 1 | Tugas Pertemuan 5 | [Click Here](##-Pertemuan-5---Tugas) |
+| 2 | Pertemuan 6 - Lab 1 | [Click Here](##-Pertemuan6---Lab-1) |
+
+
 ## Pertemuan 5 - Tugas
 
 Pada pertemuan 5 Bahasa Pemrograman, saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata dengan Python (Seperti Gambar dibawah ini):
