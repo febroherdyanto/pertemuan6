@@ -1,8 +1,4 @@
-print("=======================================")
-print("= NAMA  : FEBRO HERDYANTO             =")
-print("= NIM   : 312010043                   =")
-print("= KELAS : TI.20.B.1                   =")
-print("=======================================")
+
 
 print("Please enter your full name : ")
 fullname=input()

@@ -43,8 +43,12 @@ print("Please enter your full name : ")
 Source code diatas berfungsi untuk mencetak hasil / output berupa " **Please enter your full name :** " (Seperti gambar dibawah ini)<br>
 ![Output Fungsi Print](pict/output_print.PNG) <br>
 * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
-``` python\
+``` python
 fullname=input()
 ```
 Keterangan : <br>
-Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fulname** . 
+- Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
+- Fungsi **input()** adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*<br>
+![Input](pict/input_py.PNG)<br>
+Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br>
+* 
