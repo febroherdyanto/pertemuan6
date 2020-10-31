@@ -1,5 +1,6 @@
 #Penggunaan End
 #Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris
+#Secara default penggunaan end adalah untuk ganti baris
 print("A", end="")
 print("B", end="")
 print("C", end="")
