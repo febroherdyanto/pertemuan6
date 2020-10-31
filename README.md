@@ -99,7 +99,7 @@ Hasil dari output tersebut seperti berikut :<br>
 
 ## Pertemuan 6 - Lab 1
 
-Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan Bahasa Pemrograman Python. Berikut source code yang diberikan oleh Dosen :
+Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan Bahasa Pemrograman Python. Berikut source code yang diberikan oleh Dosen [Source Code Lab 1](lab1.py) :
 ![Pertemuan 6 - Lab 1](pict/lab1.PNG)<br>
 ``` python
 #Penggunaan End
@@ -124,7 +124,6 @@ Oke, kali ini saya akan menjelaskan tentang materi yang diberikan oleh Dosen.<br
 
 * Penggunaan END
  Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
- Hasil dari source code tersebut seperti gambar dibawah ini :<br>
 ``` python
 print("A", end="")
 print("B", end="")
@@ -136,19 +135,45 @@ print("C", end="")
 print()
 ```
 
-> <br><br>Syntax dibawah ini digunakan untuk menampilkan output berupa string
+> Syntax dibawah ini digunakan untuk menampilkan output berupa string
 ``` python
 print("X")
 print("Y")
 print("Z")
 ```
+ Hasil dari source code tersebut seperti gambar dibawah ini :<br>
+ ![Output END](pict/lab1_end.PNG)<br>
+ 
+* Penggunaan Separator
+Separator adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.<br><br>
 
+> Pendeklarasian beberapa variable beserta nilainya
+``` python
+w,x,y,z=10,15,20,25
+```
+> Menampilkan hasil dari variable tiap-tiap variable
+``` python
+print(w,x,y,z)
+```
+> Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah , (koma)
+``` python
+print(w,x,y,z,sep=",")
+```
+> Menampilkan hasil dari tiap-tiap variable tanpa menggunakan pemisah
+``` python
+print(w,x,y,z,sep="")
+```
+> Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
+``` python
+print(w,x,y,z,sep=":")
+```
+> Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
+``` python
+print(w,x,y,z,sep="-----")
+```
 
-
-
-
-
-
+Hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
+![Output Separator](pict/lab1-separator.PNG)
 
 <br>
 ---
