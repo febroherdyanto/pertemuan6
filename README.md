@@ -10,7 +10,7 @@ Kelas : TI.20.B.1<br>
 | ----- | ----- | ---- |
 | 1 | Tugas Pertemuan 5 | [Click Here](#pertemuan-5---tugas) |
 | 2 | Pertemuan 6 - Lab 1 | [Click Here](#pertemuan-6---lab-1) |
-| 3 | Pertemuan 6 - Lab 1-2 | [Click Here](#pertemuan-6---lab-1---2)
+| 3 | Pertemuan 6 - Lab 1-2 | [Click Here](#pertemuan-6---lab-1---2) |
 
 ## Pertemuan 5 - Tugas
 
@@ -99,7 +99,7 @@ Hasil dari output tersebut seperti berikut :<br>
 
 ## Pertemuan 6 - Lab 1
 
-Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari Aritmatika menggunakan Bahasa Pemrograman Python. Berikut source code yang diberikan oleh Dosen :
+Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan Bahasa Pemrograman Python. Berikut source code yang diberikan oleh Dosen :
 ![Pertemuan 6 - Lab 1](pict/lab1.PNG)<br>
 ``` python
 #Penggunaan End
@@ -120,6 +120,32 @@ print(w,x,y,z,sep="")
 print(w,x,y,z,sep=":")
 print(w,x,y,z,sep="-----")
 ```
+Oke, kali ini saya akan menjelaskan tentang materi yang diberikan oleh Dosen.<br><br>
+
+* Penggunaan END
+ Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunaan end adalah untuk ganti baris.
+ Hasil dari source code tersebut seperti gambar dibawah ini :<br>
+``` python
+print("A", end="")
+print("B", end="")
+print("C", end="")
+```
+
+> Penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
+``` python 
+print()
+```
+
+> <br><br>Syntax dibawah ini digunakan untuk menampilkan output berupa string
+``` python
+print("X")
+print("Y")
+print("Z")
+```
+
+
+
+
 
 
 
