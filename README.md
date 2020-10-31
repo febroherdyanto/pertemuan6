@@ -99,6 +99,31 @@ Hasil dari output tersebut seperti berikut :<br>
 
 ## Pertemuan 6 - Lab 1
 
+Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari Aritmatika menggunakan Bahasa Pemrograman Python. Berikut source code yang diberikan oleh Dosen :
+![Pertemuan 6 - Lab 1](pict/lab1.PNG)<br>
+``` python
+#Penggunaan End
+print("A", end="")
+print("B", end="")
+print("C", end="")
+
+print()
+print("X")
+print("Y")
+print("Z")
+
+#Penggunaan Separator
+w,x,y,z=10,15,20,25
+print(w,x,y,z)
+print(w,x,y,z,sep=",")
+print(w,x,y,z,sep="")
+print(w,x,y,z,sep=":")
+print(w,x,y,z,sep="-----")
+```
+
+
+
+
 <br>
 ---
 <br>
