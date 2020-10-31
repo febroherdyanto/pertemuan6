@@ -8,8 +8,8 @@ Kelas : TI.20.B.1<br>
 DAFTAR ISI <br>
 | No | Description | Link |
 | ----- | ----- | ---- |
-| 1 | Tugas Pertemuan 5 | [Click Here](##-Pertemuan-5---Tugas) |
-| 2 | Pertemuan 6 - Lab 1 | [Click Here](##-Pertemuan6---Lab-1) |
+| 1 | Tugas Pertemuan 5 | [Click Here](#-pertemuan-5---tugas) |
+| 2 | Pertemuan 6 - Lab 1 | [Click Here](#-pertemuan6---lab-1) |
 
 
 ## Pertemuan 5 - Tugas
