@@ -50,5 +50,14 @@ Keterangan : <br>
 1. Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
 2. Fungsi **input()** adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*<br>
 ![Input](pict/input_py.PNG)<br>
-Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br>
-* 
+Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br><br>
+* Untuk memasukkan perintah lain seperti *Nickname, NPM, Place Of Birth, Date of Birth, Year of Birth, Phone Number, and Address* mengikuti perintah yang sama seperti memasukkan *fullname*<br>
+
+* Untuk menghitung rumus umur saya menggunakan variable *DOB* yaitu 2020 (Tahun Sekarang) dikurangi dengan Year of Birth, pada source code berikut :<br>
+``` python
+dob=2020-year
+```
+<br> Pada syntax/source code diatas, saya menggunakan variable *dob* dimana untuk menghitung umur (variable **age** pada output), yaitu degan rumus pada variable *dob=2020-year*
+<br>
+
+* Langkah kali ini saya akan menampilkan
