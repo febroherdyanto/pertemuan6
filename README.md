@@ -5,12 +5,12 @@ Nama : Febro Herdyanto <br>
 NIM : 312010043<br>
 Kelas : TI.20.B.1<br>
 
-DAFTAR ISI <br>
+### DAFTAR ISI <br>
 | No | Description | Link |
 | ----- | ----- | ---- |
 | 1 | Tugas Pertemuan 5 | [Click Here](#pertemuan-5---tugas) |
-| 2 | Pertemuan 6 - Lab 1 | [Click Here](#pertemuan6---lab-1) |
-
+| 2 | Pertemuan 6 - Lab 1 | [Click Here](#pertemuan-6---lab-1) |
+| 3 | Pertemuan 6 - Lab 1-2 | [Click Here](#pertemuan-6---lab-1---2)
 
 ## Pertemuan 5 - Tugas
 
@@ -94,7 +94,14 @@ Hasil dari output tersebut seperti berikut :<br>
 ![All Output](pict/all_output.PNG)
 
 <br>
-============================================================================================================================
-<br><br><br>
+---
+<br>
 
 ## Pertemuan 6 - Lab 1
+
+<br>
+---
+<br>
+
+## Pertemuan 6 - Lab 1-2
+
