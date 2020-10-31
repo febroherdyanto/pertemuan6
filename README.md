@@ -11,6 +11,7 @@ Kelas : TI.20.B.1<br>
 | 1 | Tugas Pertemuan 5 | [Click Here](#pertemuan-5---tugas) |
 | 2 | Pertemuan 6 - Lab 1 | [Click Here](#pertemuan-6---lab-1) |
 | 3 | Pertemuan 6 - Lab 1-2 | [Click Here](#pertemuan-6---lab-1-2) |
+| 4 | Pertemuan 6 - Lab 2 | [Click Here](#pertemuan-6---lab-2) |
 
 
 ## Pertemuan 5 - Tugas
@@ -255,7 +256,7 @@ Untuk hasil dari String Format 2 adalah :<br>
 
 * Konversi Nilai Variable
 Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable<br>
-Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini atau bisa di akses ke link [Pertemuan 6 - Lab 2](lab2.py) :<br<
+Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini atau bisa di akses ke link [Pertemuan 6 - Lab 2](lab2.py) :<br>
 ![Picture Lab 2](pict/lab2.PNG)<br>
 ``` python
 a=input("Masukkan Nilai A : ")
@@ -310,9 +311,9 @@ Kita akan coba lagi untuk *run* file tersebut, maka akan muncul seperti gambar d
 <hr>
 Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
 <br>
-### ============== THANK YOU ============== 
-### FEBRO HERDYANTO / 312010043 / TI.20.B.1
-### =======================================
+### ============== THANK YOU ============== <br>
+### FEBRO HERDYANTO / 312010043 / TI.20.B.1 <br>
+### ======================================= <br>
 
 
 
