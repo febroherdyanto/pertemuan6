@@ -7,7 +7,7 @@ Kelas : TI.20.B.1<br>
 
 ## Pertemuan 5 - Tugas
 
-Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (Seperti Gambar dibawah ini):
+Pada pertemuan 5 Bahasa Pemrograman, saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata dengan Python (Seperti Gambar dibawah ini):
 ![Tugas 5](pict/tugas_p5.PNG)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut *source code* nya atau klik link berikut ( [Tugas 5 Python](tugas_p5.py) ): <br>
@@ -36,9 +36,15 @@ dob=2020-year
 print("\n\n Assalamu'alaikum. ")
 print(f"Let me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM {npm}. I was born in {pob} and Iam {dob} years old. I am very glad if you want to invite my house in {address}. So don't forget to call me before with the number {phone}. \n\n Thank You ")
 ```
-Berikut penjelasannya :<br>
+* Berikut penjelasannya :<br>
 ``` python
 print("Please enter your full name : ")
 ```
-Source code diatas berfungsi untuk mencetak hasil / output berupa **Please enter your full name :** (Seperti gambar dibawah ini)<br>
+Source code diatas berfungsi untuk mencetak hasil / output berupa " **Please enter your full name :** " (Seperti gambar dibawah ini)<br>
 ![Output Fungsi Print](pict/output_print.PNG) <br>
+* Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
+``` python\
+fullname=input()
+```
+Keterangan : <br>
+Variabel adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fulname** . 
