@@ -85,3 +85,9 @@ Keterangan :
 2. Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut seperti berikut :<br>
 ![All Output](pict/all_output.PNG)
+
+<br>
+============================================================================================================================
+<br><br><br>
+
+## Pertemuan 6 - Lab 1
