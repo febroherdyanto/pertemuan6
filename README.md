@@ -182,12 +182,13 @@ Hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 
 ## Pertemuan 6 - Lab 1-2
 
-* String Format
+* String Format<br>
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
-Penggunaan source code yang diberikan oleh dosen seperti berikut :
+Penggunaan source code yang diberikan oleh dosen seperti berikut :<br>
+![Lab 1-2](pict/lab1-2.PNG)<br><br>
 ``` python
-#String Format
+#String Format 1
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -203,7 +204,7 @@ print(10, 10**10)
 print()
 print()
 
-#String Format
+#String Format 2
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(0, 10**1))
 print('{0:>3} {1:>16}'.format(0, 10**2))
@@ -216,5 +217,63 @@ print('{0:>3} {1:>16}'.format(0, 10**8))
 print('{0:>3} {1:>16}'.format(0, 10**9))
 print('{0:>3} {1:>16}'.format(0, 10**10))
 ```
+<br>
+Saat ini saya akan membahas satu persatu dari syntax yang telah di berikan oleh Dosen.<br>
+
+1. **String Format 1** <br>
+Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.<br>
+Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.<br>
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )<br>
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. dengan output sebagai berikut : <br>
+![Operasi Aritmatika Pangkat](pict/lab1-2_pangkat.PNG)<br><br>
+
+2, **String Format 2** <br>
+Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri)<br>
+Dengan ketentuan sebagai berikut : <br> 
+> Alignment, padding, dan precesion dengan **.format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
+``` python
+print('{0:8} | {1:9}'.format('Buah','Jumlah'))
+print('{0:8} | {1:9}'.format('Apel', 3.))
+print('{0:8} | {1:9}'.format('Jeruk',10))
+```
+Hasil dari source code contoh diatas akan seperti berikut :<br>
+![Output Alignment Contoh](pict/contoh_12.PNG)<br><br>
+>Secara Default, **.format()** menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan **.format()** sebagai berikut : <br>
+``` python
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+Hasil dari source code contoh diatas akan muncul seperti ini :<br>
+![Output Alignment Contoh 2](pict/contoh_123.PNG)
+<br><br>
+Untuk hasil dari String Format 2 adalah :<br>
+![Output String Format 2](pict/string2.PNG)
+
+
+## Pertemuan 6 - Lab 2
+
+* Konversi Nilai Variable
+Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable<br>
+Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini :<br<
+![Picture Lab 2](pict/lab2.PNG)<br>
+``` python
+a=input("Masukkan Nilai A : ")
+b=input("Masukkan Nilai B : ")
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+<br>
+Setelah saya menjalankan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
+
+
+
+
 
 
