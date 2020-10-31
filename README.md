@@ -249,12 +249,13 @@ Hasil dari source code contoh diatas akan muncul seperti ini :<br>
 Untuk hasil dari String Format 2 adalah :<br>
 ![Output String Format 2](pict/string2.PNG)
 
+<br><hr><br>
 
 ## Pertemuan 6 - Lab 2
 
 * Konversi Nilai Variable
 Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable<br>
-Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini :<br<
+Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini atau bisa di akses ke link [Pertemuan 6 - Lab 2](lab2.py) :<br<
 ![Picture Lab 2](pict/lab2.PNG)<br>
 ``` python
 a=input("Masukkan Nilai A : ")
@@ -272,7 +273,46 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Setelah saya menjalankan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
 
+![Error Lab 2](pict/error1.PNG)<br>
+Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
+> **TypeError: %d format: a number is required, not str** <br>
 
+Pada error tersebut terbaca bahwa variable a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger.<br>
+*Bagaimana cara memperbaiki error tersebut?* <br>
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan **.format()** adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan **.format()**<br>
+Kita akan terfokus pada variable a dan b. <br>
+Pada line 1 tertulis syntax : *a=input("Masukkan Nilai A : ")* <br>
+Sedangkan pada line 2 tertulis sytax : *b=input("Masukkan Nilai B : ")* <br>
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah : <br>
+``` python
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+```
+<br>
+Kita akan ulangi semua sintax pada file ini, maka tulis seperti ini :<br>
+
+``` python
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Kita akan coba lagi untuk *run* file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
+![Fixed Error Lab 2](pict/fixed.PNG)
+<br><br>
+<hr>
+Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
+<br>
+### ============== THANK YOU ============== 
+### FEBRO HERDYANTO / 312010043 / TI.20.B.1
+### =======================================
 
 
 
