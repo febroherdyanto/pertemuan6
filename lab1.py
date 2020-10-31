@@ -1,4 +1,15 @@
-
+#Penggunaan End
+#Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris
+#Secara default penggunaan end adalah untuk ganti baris
+print("A", end="")
+print("B", end="")
+print("C", end="")
+#Penggunaan print() digunakan untuk mencetak output
+print()
+#Menampilkan output berupa string
+print("X")
+print("Y")
+print("Z")
 
 #Penggunaan Separator
 #Pendeklarasian beberapa variable beserta nilainya

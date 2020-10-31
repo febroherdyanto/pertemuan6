@@ -94,7 +94,7 @@ Hasil dari output tersebut seperti berikut :<br>
 ![All Output](pict/all_output.PNG)
 
 <br>
----
+<hr>
 <br>
 
 ## Pertemuan 6 - Lab 1
@@ -176,7 +176,7 @@ Hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 ![Output Separator](pict/lab1-separator.PNG)
 
 <br>
----
+<hr>
 <br>
 
 ## Pertemuan 6 - Lab 1-2
